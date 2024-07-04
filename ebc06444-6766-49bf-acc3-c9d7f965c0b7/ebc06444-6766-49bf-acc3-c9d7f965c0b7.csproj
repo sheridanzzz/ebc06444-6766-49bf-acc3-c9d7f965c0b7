@@ -6,6 +6,16 @@
         <RootNamespace>ebc06444_6766_49bf_acc3_c9d7f965c0b7</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GenerateProgramFile>false</GenerateProgramFile>
     </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="NUnit" Version="4.1.0" />
+        <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+        <PackageReference Include="NUnit.Extension.VSProjectLoader" Version="3.9.0" />
+        <PackageReference Include="NUnit.Extension.NUnitV2Driver" Version="3.9.0" />
+        <PackageReference Include="NUnit.Extension.NUnitProjectLoader" Version="3.7.1" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+    </ItemGroup>
 
 </Project>
